@@ -1,0 +1,13 @@
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.exe.config
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.exe
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.pdb
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.csprojResolveAssemblyReference.cache
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.Form1.resources
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.Properties.Resources.resources
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.csproj.GenerateResource.Cache
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.exe
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.pdb
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\Newtonsoft.Json.dll
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.dll
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\Newtonsoft.Json.xml
+c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.xml
