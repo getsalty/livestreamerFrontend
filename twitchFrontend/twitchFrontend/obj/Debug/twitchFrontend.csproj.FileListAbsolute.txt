@@ -11,3 +11,16 @@ c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitc
 c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.dll
 c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\Newtonsoft.Json.xml
 c:\users\garrett.long\documents\visual studio 2015\Projects\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.exe.config
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.exe
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.pdb
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.exe
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\twitchFrontend.pdb
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\Newtonsoft.Json.dll
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\Newtonsoft.Json.xml
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.csprojResolveAssemblyReference.cache
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.Form1.resources
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.Properties.Resources.resources
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitchFrontend\twitchFrontend\obj\Debug\twitchFrontend.csproj.GenerateResource.Cache

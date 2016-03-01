@@ -10,3 +10,6 @@ c:\users\garrett.long\documents\visual studio 2015\Projects\twitch\twitch\obj\De
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\twitch.exe.config
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\obj\Debug\twitch.exe
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\obj\Debug\twitch.pdb
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitch\bin\Debug\twitch.exe.config
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitch\obj\Debug\twitch.exe
+C:\Users\garrett.long\Source\Repos\livestreamerFrontend\twitch\obj\Debug\twitch.pdb
