@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Net.Http;
 using System.Net.Http.Headers;
+using System.Text;
 using System.Threading.Tasks;
 using twitch.Models;
 
@@ -19,9 +20,6 @@ namespace twitchFrontend.Service
 
         public async Task UpdateStreamers()
         {
-            var time2 = new Stopwatch();
-            time2.Start();
-
             using (var client = new HttpClient())
             {
                 client.BaseAddress = new Uri("http://localhost:3000");
@@ -30,9 +28,6 @@ namespace twitchFrontend.Service
 
                 try
                 {
-                    ////
-                    //    PARALLEL PROCESSING
-                    ////
                     var tasks = new List<Task>();
                     foreach (var item in _datasourceStreamer)
                     {
@@ -45,13 +40,6 @@ namespace twitchFrontend.Service
                     Console.WriteLine(e.InnerException);
                 }
             }
-
-            time2.Stop();
-            var ts = time2.Elapsed;
-            var elapsedTime = string.Format("{0:00}:{1:00}:{2:00}.{3:00}",
-                ts.Hours, ts.Minutes, ts.Seconds,
-                ts.Milliseconds / 10);
-            Debug.WriteLine("RunTime for ASYNC1 " + elapsedTime);
         }
 
         async Task RetrieveStreamInfo(HttpClient client, Streamer item)
@@ -59,12 +47,15 @@ namespace twitchFrontend.Service
             HttpResponseMessage response = await client.GetAsync(item.url);
             if (response.IsSuccessStatusCode)
             {
-                var product = await response.Content.ReadAsAsync<TEST>();
-                if (product.Name == item.name)
-                    item.online = true;
-                //var product = await response.Content.ReadAsAsync<Stream>();
-                //if (product.channel.name == item.name)
+                //var product = await response.Content.ReadAsAsync<TEST>();
+                //if (product.Name == item.name)
                 //    item.online = true;
+                var product = await response.Content.ReadAsAsync<Stream>();
+                if (product.channel.name == item.name)
+                {
+                    item.online = true;
+                    item.viewers = product.viewers;
+                }
             }
             else
             {
@@ -92,10 +83,31 @@ namespace twitchFrontend.Service
             }
         }
 
+        public void DisplayStream(List<Streamer> selectedStreamers)
+        {
+            var sb = new StringBuilder();
+            foreach (var item in selectedStreamers)
+            {
+                sb.Clear();
+                sb.Append("/c livestreamer twitch.tv/");
+                sb.Append(item.name);
+                sb.Append(" ");
+                sb.Append("source");
+                var process = new Process();
+                var startInfo = new ProcessStartInfo();
+
+                //WindowStyle = ProcessWindowStyle.Hidden,
+                startInfo.FileName = "cmd.exe";
+                startInfo.Arguments = sb.ToString();
+
+
+                process.StartInfo = startInfo;
+                process.Start();
+            }
+        }
 
 
         //----------------------------------------------------
-
 
         async Task RunAsync2()
         {
