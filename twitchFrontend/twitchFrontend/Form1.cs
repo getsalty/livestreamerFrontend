@@ -1,5 +1,4 @@
 ﻿using System.Collections.Generic;
-using System.Linq;
 using System.Windows.Forms;
 using twitch.Models;
 using twitchFrontend.Controllers;
@@ -9,7 +8,6 @@ namespace twitchFrontend
     public partial class Form1 : Form
     {
         List<Streamer> _datasource = new List<Streamer>();
-        //AppService _serviceHandler;
         AppController _controller;
 
         public Form1()
@@ -26,6 +24,8 @@ namespace twitchFrontend
             dataGridView1.DataSource = _datasource;
             _controller = new AppController(_datasource);
 
+            comboBox1.DataSource = new string[] { "Source", "High", "Medium", "Low" };
+            comboBox1.SelectedIndex = 0;
         }
 
         void cellFormattingImage(object sender, DataGridViewCellFormattingEventArgs e)
@@ -50,20 +50,7 @@ namespace twitchFrontend
 
         void button_Launch_Click(object sender, System.EventArgs e)
         {
-            var dataRows = dataGridView1.SelectedRows;
-            var selectedRows = new List<Streamer>();
-            for (int i = 0; i < dataRows.Count; i++)
-            {
-                var streamer = _datasource.Single(o => o.name == dataRows[i].Cells[0].Value.ToString());
-                if (streamer.online == false)
-                {
-                    MessageBox.Show("Streamer is not online:  " + streamer.name, "Offline",
-                         MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-                else
-                    selectedRows.Add(streamer);
-            }
-            _controller.Button_Launch(selectedRows);
+            _controller.Button_Launch(dataGridView1.SelectedRows);
         }
     }
 }

@@ -100,7 +100,6 @@ namespace twitchFrontend.Service
                 startInfo.FileName = "cmd.exe";
                 startInfo.Arguments = sb.ToString();
 
-
                 process.StartInfo = startInfo;
                 process.Start();
             }
