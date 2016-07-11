@@ -10,3 +10,10 @@ c:\users\garrett.long\documents\visual studio 2015\Projects\twitch\twitch\obj\De
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\twitch.exe.config
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\obj\Debug\twitch.exe
 C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\obj\Debug\twitch.pdb
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\twitch.exe
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\twitch.pdb
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\Newtonsoft.Json.dll
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\Newtonsoft.Json.xml
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\garrett.long\Documents\Visual Studio 2015\Projects\livestreamerFrontend\twitch\obj\Debug\twitch.csprojResolveAssemblyReference.cache

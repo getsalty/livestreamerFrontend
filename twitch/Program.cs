@@ -27,6 +27,7 @@ namespace twitch
                     if (response.IsSuccessStatusCode)
                     {
                         var product = await response.Content.ReadAsAsync<Stream>();
+                        Console.WriteLine("Got it");
                     }
                     else
                     {
